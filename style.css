@@ -1,0 +1,97 @@
+body {
+    text-align: center;
+    padding-top: 800px;
+    margin: 0;
+}
+
+.ProfilePic {
+    width: 915px;
+    margin-bottom: 50px;
+    border-radius: 50%;
+}
+
+#WelcomeNezuko {
+    position: absolute;
+    overflow: hidden;
+    height: 800px;
+    color: antiquewhite;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    opacity: .83;
+    background: linear-gradient(#000000 0%, #99fff0 100%);
+     z-index: 9;
+
+}
+
+h1 {
+    font-size: 40px;
+    line-height: 1.2;
+    font-family: serif;
+}
+
+#name {
+    font-size: 40px;
+    line-height: 1.2;
+    font-family:'Dancing Script', cursive;
+}
+
+h2 {
+    font-weight: 300px;
+    font-size: 30px;
+    line-height: 1.2;
+    font-family: sans-serif;
+}
+
+.line {
+    height: 6px;
+    background-color: black;
+    width: 70px;
+    margin: 8px auto;
+}
+
+p {
+    max-width: 650px;
+    margin: 25px auto;
+    font-size: 17px;
+    line-height: 1.3
+}
+
+.NezukoKamado {
+    display: table-cell;
+    position: relative;
+    text-align: center;
+    vertical-align: middle;
+}
+.menu {
+    list-style: none;
+    font-family: 'Dancing Script', cursive;
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    cursor: pointer;
+ z-index: 10;    
+}
+.links {
+    float: left;
+    color: aquamarine;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 9px;
+    padding-left: 9px;
+    font-family: 'Dancing Script', cursive;
+    font-size: 18px;
+}
+    
+.links:hover {
+    background-color: blanchedalmond;
+}
+
+
+
+
+
+
+
+
